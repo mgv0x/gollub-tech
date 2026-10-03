@@ -1,0 +1,14 @@
+[[redirects]]
+  from = "/bio"
+  to = "/bio/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/bio/"
+  to = "/bio/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/bio/*"
+  to = "/bio/:splat"
+  status = 200

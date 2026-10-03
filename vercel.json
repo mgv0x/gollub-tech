@@ -1,0 +1,14 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "rewrites": [
+    {
+      "source": "/bio",
+      "destination": "/bio/index.html"
+    },
+    {
+      "source": "/bio/",
+      "destination": "/bio/index.html"
+    }
+  ]
+}
